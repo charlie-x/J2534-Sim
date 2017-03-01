@@ -1,0 +1,14 @@
+LIBRARY j2534_sim.dll
+EXPORTS
+PassThruConnect
+PassThruDisconnect
+PassThruGetLastError
+PassThruIoctl
+PassThruReadMsgs
+PassThruReadVersion
+PassThruSetProgrammingVoltage
+PassThruStartMsgFilter
+PassThruStartPeriodicMsg
+PassThruStopMsgFilter
+PassThruStopPeriodicMsg
+PassThruWriteMsgs
